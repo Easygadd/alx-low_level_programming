@@ -29,7 +29,6 @@ int _atoi(char *s)
 
 	return (sign * resp);
 }
-
 void int_to_string(int n)
 {
 int divisor = 1, i, resp;
