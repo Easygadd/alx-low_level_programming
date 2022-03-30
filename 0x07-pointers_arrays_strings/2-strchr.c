@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * *_strchr - fills memory with a constant byte.
