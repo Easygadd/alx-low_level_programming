@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -c _Wall _Werror -Wextra *.c
+gcc -c -Wall -Werror -Wextra *.c
 ar -rcs liball.a *.o
