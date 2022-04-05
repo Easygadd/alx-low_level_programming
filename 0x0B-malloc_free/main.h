@@ -1,4 +1,5 @@
-#define HOLBERTON_H
+#if !defined(MAIN_H)
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -13,3 +14,5 @@ char **strtow(char *str);
 int _strlen(char *s);
 char *str_addChar (char *str, char c);
 unsigned int nbr_spaces(char *s);
+
+#endif
